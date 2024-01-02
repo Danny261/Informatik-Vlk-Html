@@ -25,3 +25,24 @@ body {
 .tab:hover {
     background-color: #555;
 }
+
+.faq-container {
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-weight: bold;
+    font-size:xx-large;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.answer {
+    margin-bottom: 20px;
+    font-size:larger;
+    display: none;
+}
