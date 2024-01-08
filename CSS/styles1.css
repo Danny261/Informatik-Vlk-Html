@@ -18,10 +18,24 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
     text-decoration: none; /* Remove underline */
-    color: #fff; /* Set text color to white */
-    display: inline-block; /* Align elements in a row */
+    color: #fff; /* set text color to white */
+    display: inline-block; /* alllign elements in a row */
 }
 
 .tab:hover {
     background-color: #555;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin: 0 20px;
+}
+
+.image {
+    max-width: 400px;
+    max-height: 400px;
 }

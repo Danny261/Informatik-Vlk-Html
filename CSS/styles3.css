@@ -17,9 +17,9 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
-    text-decoration: none; /* Remove underline */
-    color: #fff; /* Set text color to white */
-    display: inline-block; /* Align elements in a row */
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
 }
 
 .tab:hover {
